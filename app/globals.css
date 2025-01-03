@@ -38,12 +38,16 @@ html:not([data-scroll="0"]) .navbar {
   /*background-image: url('/assets/banner/background.png');*/
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #2f3c57;
+  background-color: #141414;
   color: #a47c38;
 }
 .bg-lightpink {
-  background-color: #010101;
+  background-color: #141414;
   color: #a47c38;
+}
+
+.bg-bgpurple {
+  background-color: #141414;
 }
 
 .bg-bgpink {

@@ -53,7 +53,7 @@ const Banner = () => {
               <div className="bannerBorder sm:pl-8">
                 <div className="flex justify-center sm:justify-start">
                   <h3 className="text-2xl font-semibold mr-2">4.6</h3>
-                  <img src={"/assets/banner/Stars.svg"} alt="stars-icon" />
+                  <img className="bg-[#a47c38]" src={"/assets/banner/Stars.svg"} alt="stars-icon" />
                 </div>
                 <div>
                   <h3 className="text-sm">Rated by users.</h3>
