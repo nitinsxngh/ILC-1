@@ -41,6 +41,15 @@ html:not([data-scroll="0"]) .navbar {
   background-color: #2f3c57;
   color: #a47c38;
 }
+.bg-lightpink {
+  background-color: #010101;
+  color: #a47c38;
+}
+
+.bg-bgpink {
+  background-color: #010101;
+  color: #a47c38;
+}
 
 @media screen and (max-width: 640px) {
   .banner-image {

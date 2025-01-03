@@ -79,7 +79,7 @@ const Students = () => {
     return index;
   };
 
-  // Automatic slide change every 2 seconds (2000ms)
+  // Automatic slide change every 4 seconds (4000ms)
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => moveSlide(prevIndex + 3)); // Move by 3 slides
@@ -112,7 +112,7 @@ const Students = () => {
             }}
           >
             {postData.map((items, i) => (
-              <div key={i} className="flex-shrink-0 w-1/3 px-2"> {/* 1/3 width for each slide */}
+              <div key={i} className="flex-shrink-0 w-full sm:w-1/3 px-2"> {/* Adjusted width for mobile */}
                 <div className="bg-white m-4 pt-8 px-12 pb-10 text-center rounded-lg">
                   <div className="relative">
                     <img
@@ -123,7 +123,7 @@ const Students = () => {
                     <img
                       src={'/assets/students/greenpic.svg'}
                       alt="greenbg"
-                      className=" absolute inline-block h-6 w-6 position-green"
+                      className="absolute inline-block h-6 w-6 position-green"
                     />
                   </div>
                   <h4 className="text-2xl font-semibold pt-3 pb-3">{items.name}</h4>
