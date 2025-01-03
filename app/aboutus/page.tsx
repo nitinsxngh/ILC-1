@@ -3,7 +3,7 @@ import React from 'react';
 const teamMembers = [
   {
     name: "Shreya Chopra",
-    role: "Founder &amp; MD", // Correctly escaped ampersand
+    role: "Founder | MD", // Correctly escaped ampersand
     photo: "/assets/teachers/shreya-chopra.jpeg",
     description: "Shreya Chopra is holding B.Com (Hon.) LL.B. graduation degree , Masters in Corporate Law , and currently pursuing Doctorate of Philosophy in Legal Real Estate frauds . Worked as Legal Executive in Real Estate Regulatory Authority and as an Assistant Professor too. Apart from Academics she has been crowned as Miss India 2017 from Glammonn and been the Social Voice for the campaign 'Beti Bachao Beti Padhao' along with being the Brand Ambassador for Bharat Scouts and Guides . Spoken and Stood for legal rights for 'Betiyan' on national News Channels like C.N.B.C. , ZEE Hindustan , Mh1 etc. And Awarded 42 Government Awards for Educating them , Visiting them and Supporting them in their Legal Rights.",
   },
@@ -21,13 +21,13 @@ const teamMembers = [
   },
   {
     name: "Susrith Godavarthi",
-    role: "IT Team &amp; Social Media", // Correctly escaped ampersand
+    role: "IT Team | Social Media", // Correctly escaped ampersand
     photo: "/assets/teachers/Susrith-Godavarthi.jpg",
     description: "Susrith godavarthi is a skilled Machine Learning Engineer with a strong drive for transforming data into meaningful, actionable insights. Known for tackling complex challenges, Susrith leverages advanced technologies to design innovative solutions that push the boundaries of what’s possible. Beyond his professional pursuits, Susrith has a passion for travel and cultural exploration, enriching his creativity and bringing a fresh perspective to his work. He is enthusiastic about connecting with others and sharing his journey in the world of Integrated Legal Circle (ILC), where he aims to make a significant impact in the intersection of technology and legal advancement.",
   },
   {
     name: "Suvigya Tiwari",
-    role: "AI &amp; IPR", // Correctly escaped ampersand
+    role: "AI | IPR", // Correctly escaped ampersand
     photo: "/assets/teachers/suvigya.jpg",
     description: "Suvigya is an expert at the intersection of artificial intelligence (AI) and intellectual property rights (IPR). With a strong understanding of both AI technologies and legal frameworks, Suvigya helps businesses protect their innovations, ensuring compliance with patent, copyright, and trademark laws. Suvigya’s expertise enables organizations to navigate the complexities of IPR in the rapidly evolving AI space.",
   },
