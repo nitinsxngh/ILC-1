@@ -14,16 +14,16 @@ interface Name {
 
 const names: Name[] = [
     // Law Courses
-    { course: "Corporate Law", imageSrc: "/assets/courses/coursesOne.svg", profession: "Learn the essentials of corporate law and regulations.", price: "100", category: "Law" },
-    { course: "Intellectual Property Law", imageSrc: "/assets/courses/coursesTwo.svg", profession: "Understand patents, trademarks, and copyrights.", price: "120", category: "Law" },
-    { course: "Cyber Law", imageSrc: "/assets/courses/coursesThree.svg", profession: "Study legal frameworks for cybersecurity and IT.", price: "110", category: "Law" },
-    { course: "Environmental Law", imageSrc: "/assets/courses/coursesFour.svg", profession: "Explore laws related to environmental protection.", price: "90", category: "Law" },
+    { course: "Corporate Law", imageSrc: "/assets/courses/law/1.jpg", profession: "Learn the essentials of corporate law and regulations.", price: "100", category: "Law" },
+    { course: "Intellectual Property Law", imageSrc: "/assets/courses/law/2.jpg", profession: "Understand patents, trademarks, and copyrights.", price: "120", category: "Law" },
+    { course: "Cyber Law", imageSrc: "/assets/courses/law/3.jpg", profession: "Study legal frameworks for cybersecurity and IT.", price: "110", category: "Law" },
+    { course: "Environmental Law", imageSrc: "/assets/courses/law/4.jpg", profession: "Explore laws related to environmental protection.", price: "90", category: "Law" },
 
     // Other Courses
-    { course: "Kisan Drone Operator", imageSrc: "/assets/courses/coursesOne.svg", profession: "Operate drones for agricultural monitoring, spraying, and data collection.", price: "50", category: "Other", subCategory: "Drone" },
-    { course: "Drone Technology", imageSrc: "/assets/courses/coursesTwo.svg", profession: "Learn the basics of drone technology and flight operations.", price: "75", category: "Other", subCategory: "Drone" },
-    { course: "Mechanical Engineering Basics", imageSrc: "/assets/courses/coursesThree.svg", profession: "Learn the fundamentals of mechanical engineering.", price: "60", category: "Other", subCategory: "Engineering" },
-    { course: "Electrical Engineering Concepts", imageSrc: "/assets/courses/coursesFour.svg", profession: "Understand electrical systems and circuits.", price: "80", category: "Other", subCategory: "Engineering" },
+    { course: "Kisan Drone Operator", imageSrc: "/assets/courses/drone/1.jpg", profession: "Operate drones for agricultural monitoring, spraying, and data collection.", price: "50", category: "Other", subCategory: "Drone" },
+    { course: "Drone Technology", imageSrc: "/assets/courses/drone/2.jpg", profession: "Learn the basics of drone technology and flight operations.", price: "75", category: "Other", subCategory: "Drone" },
+    { course: "Mechanical Engineering Basics", imageSrc: "/assets/courses/engineer/1.jpg", profession: "Learn the fundamentals of mechanical engineering.", price: "60", category: "Other", subCategory: "Engineering" },
+    { course: "Electrical Engineering Concepts", imageSrc: "/assets/courses/engineer/2.jpg", profession: "Understand electrical systems and circuits.", price: "80", category: "Other", subCategory: "Engineering" },
 ];
 
 const categoryIcons = {

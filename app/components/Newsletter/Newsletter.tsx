@@ -20,7 +20,6 @@ const Newsletter = () => {
                     {/* COLUMN-2 */}
                     <div className='hidden sm:block'>
                         <div className='float-right -mt-32'>
-                            <img src={'/assets/newsletter/Free.svg'} alt="bgimg" />
                         </div>
                     </div>
 
