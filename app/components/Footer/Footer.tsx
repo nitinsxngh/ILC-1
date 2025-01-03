@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import { FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 
 // MIDDLE LINKS DATA
 interface ProductType {
@@ -85,12 +84,10 @@ const Footer = () => {
               <br /> 889/1, Opp Ana Sagar Lake, Chupati, Gauravpath, Ajmer, Rajasthan - 305001
             </p>
             <p className="text-offwhite text-sm mb-4 flex items-center">
-              <FaPhoneAlt className="mr-2" />
-              +91-9599029606, +91-7303031659
+              📞 +91-9599029606, +91-7303031659
             </p>
             <p className="text-offwhite text-sm mb-4 flex items-center">
-              <FaEnvelope className="mr-2" />
-              info@ilc.limited
+             ✉️ info@ilc.limited
             </p>
           </div>
         </div>
