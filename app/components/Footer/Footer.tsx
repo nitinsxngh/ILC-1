@@ -80,7 +80,7 @@ const Footer = () => {
             </p>
             <p className="text-offwhite text-sm mb-4">
               <strong>Branch:</strong>
-              <br /> N-14/27, DLF Phase 2, Sector 25, Gurugram, Haryana - 12002
+              <br /> N-14/27, DLF Phase 2, Sector 25, Gurugram, Haryana - 122022
               <br /> 889/1, Opp Ana Sagar Lake, Chupati, Gauravpath, Ajmer, Rajasthan - 305001
             </p>
             <p className="text-offwhite text-sm mb-4 flex items-center">
@@ -95,7 +95,7 @@ const Footer = () => {
 
       {/* All Rights Reserved */}
       <div className="pb-24 px-4">
-        <h3 className="text-center text-offwhite">
+        <h3 className="text-center text-sm text-offwhite">
           @2025 - All Rights Reserved by <Link href="#" target="_blank"> Innovative ILC India Pvt Ltd.</Link>
         </h3>
       </div>

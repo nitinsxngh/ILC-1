@@ -48,7 +48,7 @@ const products: Product[] = [
         href: '#',
         imageSrc: '/assets/mentor/13.svg',
         imageAlt: "Front of men's Basic Tee in black.",
-        color: 'Chandamita Das',
+        color: 'Chandamita Nath',
     },
     {
         id: 6,
