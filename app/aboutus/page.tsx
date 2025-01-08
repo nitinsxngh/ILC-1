@@ -8,18 +8,6 @@ const teamMembers = [
     description: "Shreya Chopra is holding B.Com (Hon.) LL.B. graduation degree , Masters in Corporate Law , and currently pursuing Doctorate of Philosophy in Legal Real Estate frauds . Worked as Legal Executive in Real Estate Regulatory Authority and as an Assistant Professor too. Apart from Academics she has been crowned as Miss India 2017 from Glammonn and been the Social Voice for the campaign 'Beti Bachao Beti Padhao' along with being the Brand Ambassador for Bharat Scouts and Guides . Spoken and Stood for legal rights for 'Betiyan' on national News Channels like C.N.B.C. , ZEE Hindustan , Mh1 etc. And Awarded 42 Government Awards for Educating them , Visiting them and Supporting them in their Legal Rights.",
   },
   {
-    name: "Priyanka Singh",
-    role: "Product Manager",
-    photo: "/assets/teachers/Priyanka-singh.jpeg",
-    description: "Priyanka Singh holds a Masters degree in Corporate Law and has a deep commitment to advancing the legal profession by bridging the gap between theoretical knowledge and practical skills. With a strong foundation in corporate law, Priyanka has cultivated a unique blend of expertise that supports both individuals and organizations navigating complex legal landscapes. Passionate about empowering the legal community, Priyanka plays an integral role in fostering meaningful opportunities for growth, collaboration, and learning within the field. Her work emphasizes innovation and accessibility, making impactful strides in legal education and practice.", // Correctly escaped single quote
-  },
-  {
-    name: "Pranshi Singh",
-    role: "Legal Head",
-    photo: "/assets/teachers/pranshi-singh.jpeg",
-    description: "Pranshi Singh is a dedicated legal professional with a Bachelor of Arts and Bachelor of Laws (BA LLB) degree. Her academic journey and comprehensive understanding of law equip her with a well-rounded perspective on both the theoretical and practical facets of the legal system. Known for her analytical skills and commitment to justice, Pranshi aims to contribute positively to the legal community, advocating for clarity, fairness, and accessibility in the law. Her passion for helping others and her proactive approach to addressing legal challenges make her a promising and valued figure in the legal field.",
-  },
-  {
     name: "Susrith Godavarthi",
     role: "IT Team | Social Media", // Correctly escaped ampersand
     photo: "/assets/teachers/Susrith-Godavarthi.jpg",
