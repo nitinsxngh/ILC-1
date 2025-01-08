@@ -20,17 +20,17 @@ const teamMembers = [
     description: "Suvigya is an expert at the intersection of artificial intelligence (AI) and intellectual property rights (IPR). With a strong understanding of both AI technologies and legal frameworks, Suvigya helps businesses protect their innovations, ensuring compliance with patent, copyright, and trademark laws. Suvigya’s expertise enables organizations to navigate the complexities of IPR in the rapidly evolving AI space.",
   },
   {
-    name: "Ankit Kumar",
-    role: "Legal Researcher",
-    photo: "/assets/teachers/Ankit-Kumar.jpg",
-    description: "Ankit Kumar possesses a strong interest in Contract Drafting, Intellectual Property Law, Arbitration, Corporate Law, and Company Law. Backed by a solid foundation of academic knowledge and practical experience, he offers insightful legal analysis and strategic support in these domains. Driven by a passion for excellence in the legal field, he is committed to enhancing his expertise and making a meaningful impact through his contributions.", // Correctly escaped single quote
-  },
-  {
     name: "Kaushaki Kumari",
-    role: "Legal Researcher",
+    role: "Legal Researcher | Education Head",
     photo: "/assets/teachers/Kaushaki-Kumari.jpg",
     description: "Kaushaki Kumari, a distinguished law graduate with a Bachelor of Laws (BA LLB) degree, combines academic excellence, practical expertise, and innovative leadership in the legal field. As an active member of her university’s Moot Court Committee, she contributed to fostering critical legal skills among peers and advancing legal education. With hands-on experience at reputed organizations like AIHRA and Tulja Estates, she specializes in corporate law, legal research, and strategic case preparation. Recognized for her impactful publications and process optimization initiatives, Kaushaki’s ability to navigate complex legal challenges with precision distinguishes her as a forward-thinking legal professional.",
   },
+  {
+    name: "Ankit Kumar",
+    role: "Project Manager",
+    photo: "/assets/teachers/Ankit-Kumar.jpg",
+    description: "Ankit Kumar possesses a strong interest in Contract Drafting, Intellectual Property Law, Arbitration, Corporate Law, and Company Law. Backed by a solid foundation of academic knowledge and practical experience, he offers insightful legal analysis and strategic support in these domains. Driven by a passion for excellence in the legal field, he is committed to enhancing his expertise and making a meaningful impact through his contributions.", // Correctly escaped single quote
+  }
 ];
 
 const AboutUs = () => {
