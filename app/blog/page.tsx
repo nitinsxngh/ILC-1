@@ -26,6 +26,12 @@ const Blog = () => {
       description: 'Master the art of legal research with our comprehensive guide.',
       imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj209jd3jD1XehTnGXN87LLv7oNOxndUIFgLeKnIHIvT1RIziydcc67iZ03qP8XZJRBec&usqp=CAU',
       link: '/blog/legal-research-mastery'
+    },
+    {
+      title: 'Tea plantation labour act: An introductory essay',
+      description: 'The Tea Plantation Labour Act regulates workers conditions in India tea plantations',
+      imageUrl: 'https://businesseconomics.in/sites/default/files/field/image/tea-labour%20image.png',
+      link: '/blog/legal-research-mastery'
     }
   ];
 
