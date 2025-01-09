@@ -31,7 +31,7 @@ const Banner = () => {
               <div className="hidden sm:block -space-x-2 overflow-hidden p-4">
                 <img
                   className="inline-block h-12 w-12 rounded-full ring-2 ring-white"
-                  src="/assets/teachers/shreya-chopra.jpeg"
+                  src="/assets/teachers/shreya-chopra-crop.jpeg"
                   alt=""
                 />
                 <img
