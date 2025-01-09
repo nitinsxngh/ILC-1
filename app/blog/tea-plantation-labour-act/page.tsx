@@ -31,7 +31,7 @@ const TeaPlantationLabourAct = () => {
           <li><strong>Protection Against Exploitation:</strong> Preventing slavery, unfair dismissals, and exploitation of workers.</li>
           <li><strong>Promotion of Health and Safety:</strong> Providing good hygiene and safety measures to prevent industrial accidents.</li>
           <li><strong>Employment Benefits:</strong> Providing maternity leave, sick leave, and a fair and just recruitment process.</li>
-          <li><strong>Grievance Redressal:</strong> Creating a mechanism to address workers' complaints and disputes.</li>
+          <li><strong>Grievance Redressal:</strong> Creating a mechanism to address workers complaints and disputes.</li>
         </ul>
       </section>
 
@@ -49,7 +49,7 @@ const TeaPlantationLabourAct = () => {
       <section>
         <h2 className="text-2xl font-semibold mb-4">Conclusion</h2>
         <p>
-          The Tea Plantation Labour Act is a significant piece of legislation that underscores the Indian government's concern for workers' welfare and social justice. While significant progress has been made in improving the conditions of laborers in the tea plantation industry, challenges such as social marginalization, illiteracy, and inequalities persist. The Act attempts to address these issues by setting regulations for the welfare of the workers, but its full implementation remains a work in progress.
+          The Tea Plantation Labour Act is a significant piece of legislation that underscores the Indian governments concern for workers welfare and social justice. While significant progress has been made in improving the conditions of laborers in the tea plantation industry, challenges such as social marginalization, illiteracy, and inequalities persist. The Act attempts to address these issues by setting regulations for the welfare of the workers, but its full implementation remains a work in progress.
         </p>
       </section>
     </main>
