@@ -7,7 +7,7 @@ const Blog = () => {
       title: 'Tea plantation labour act: An introductory essay',
       description: 'The Tea Plantation Labour Act regulates workers conditions in India tea plantations',
       imageUrl: 'https://businesseconomics.in/sites/default/files/field/image/tea-labour%20image.png',
-      link: '/blog/legal-research-mastery'
+      link: '/blog/tea-plantation-labour-act'
     },
     {
       title: 'Data Privacy Laws',
