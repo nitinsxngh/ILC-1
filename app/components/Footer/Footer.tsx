@@ -38,7 +38,7 @@ const Footer = () => {
           {/* COLUMN-1 */}
           <div className="col-span-4">
           <div className="flex items-center pb-4">
-              <img src={"/assets/logo/ilc-small.png"} alt="logo" />
+              <img className="h-[60px] h-30px w-30px" src={"/assets/logo/logo-new.svg"} alt="logo" />
               <h2 className="text-white text-lg font-semibold ml-4">ILC LIMITED</h2>
             </div>
             <h3 className="text-white text-lg font-medium leading-9 mb-4 lg:mb-20">
