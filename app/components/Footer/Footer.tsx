@@ -23,7 +23,8 @@ const products: ProductType[] = [
     id: 2,
     section: "Support",
     link: [
-      { label: "Terms of Service", url: "/terms" },
+      { label: "Terms of Service", url: "/terms-of-services" },
+      { label: "Terms and Conditions", url: "/terms-and-conditions" },
       { label: "Privacy Policy", url: "/privacy" },
     ],
   },

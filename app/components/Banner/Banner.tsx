@@ -22,7 +22,7 @@ const Banner = () => {
         <div className="mx-auto max-w-5xl pt-16 pb-16 sm:pt-40 sm:pb-24">
           <div className="text-center">
             <h1 className="text-xl sm:text-2xl pt-14 md:text-5xl font-bold tracking-tight text-gray-900">
-              Expertise Your Legal Journey
+              Integrated Learning Circle
             </h1>
             <p className="mt-6 text-lg leading-8 text-white">
               Transforming Learning to Build Skills, Foster Connections, and Unlock Career Opportunities.

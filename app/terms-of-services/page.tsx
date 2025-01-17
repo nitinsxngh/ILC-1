@@ -4,7 +4,7 @@ const TermsAndConditions = () => {
   return (
     <div className="p-8 bg-gray-100 min-h-screen mb-64">
       <div className="max-w-4xl mx-auto bg-white shadow-md rounded-lg p-6">
-        <h1 className="text-3xl font-bold mb-6 text-center">Terms and Conditions</h1>
+        <h1 className="text-3xl font-bold mb-6 text-center">Terms of Services</h1>
 
         <p className="mb-4 text-gray-700">
           Thank you for visiting our website. By using our &quot;Contact Us&quot; feature, you agree to the following terms and conditions, which are designed to ensure a secure, efficient, and professional experience. Please read these terms carefully before reaching out to us.
