@@ -16,7 +16,7 @@ const Banner = () => {
         {/* Logo Image */}
         <img
           className="absolute top-24 pb-6 mt-4 left-1/2 -translate-x-1/2 -translate-y-1/2 h-48 w-48 object-cover rounded-full hidden md:block"
-          src={"/assets/logo/ilc-logo.svg"}
+          src={"/assets/logo/logo-new.svg"}
           alt="Company Logo"
         />
         <div className="mx-auto max-w-5xl pt-16 pb-16 sm:pt-40 sm:pb-24">

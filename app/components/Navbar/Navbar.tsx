@@ -43,13 +43,13 @@ const Navbar = () => {
                             <div className="flex flex-shrink-0 items-center">
                                 <Link href="/">
                                     <img
-                                        className="block h-30px w-30px lg:hidden cursor-pointer"
-                                        src={'/assets/logo/ilc-logo-main.svg'}
+                                        className="block h-[60px] h-30px w-30px lg:hidden cursor-pointer"
+                                        src={'/assets/logo/logo-new.svg'}
                                         alt="Courses-Logo"
                                     />
                                     <img
-                                        className="hidden h-48px w-48px lg:block cursor-pointer"
-                                        src={'/assets/logo/ilc-logo-main.svg'}
+                                        className="hidden h-[70px] h-48px w-48px lg:block cursor-pointer"
+                                        src={'/assets/logo/logo-new.svg'}
                                         alt="Courses-Logo"
                                     />
                                 </Link>
