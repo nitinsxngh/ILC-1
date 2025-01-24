@@ -57,7 +57,7 @@ const TermsAndConditions = () => {
           <h2 className="text-2xl font-semibold mt-6 mb-4">2. Internship Programs</h2>
           <ul className="list-disc pl-6 mb-4 text-gray-700">
             <li>Fees for internship programs are non-refundable unless specified otherwise.</li>
-            <li>If an internship is canceled by ILC, alternative options will be provided.</li>
+            <li>If an internship is canceled by ILC, alternative options will be provided, subject to availability</li>
           </ul>
 
           <h2 className="text-2xl font-semibold mt-6 mb-4">3. Cancellations by Users</h2>
