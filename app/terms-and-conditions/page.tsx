@@ -50,7 +50,8 @@ const TermsAndConditions = () => {
           <h2 className="text-2xl font-semibold mt-6 mb-4">1. Courses</h2>
           <ul className="list-disc pl-6 mb-4 text-gray-700">
             <li>Enrollment in courses is non-transferable.</li>
-            <li>Refund requests will be considered on a case-by-case basis at ILC’s discretion.</li>
+            <li>Refund requests will be considered on a case-by-case basis at ILCs discretion.</li>
+            <li>Refunds, if approved, will be processed within 0-7 days.</li>
           </ul>
 
           <h2 className="text-2xl font-semibold mt-6 mb-4">2. Internship Programs</h2>
@@ -80,7 +81,7 @@ const TermsAndConditions = () => {
 
           <h2 className="text-2xl font-semibold mt-6 mb-4">2. Physical Products</h2>
           <p className="mb-4 text-gray-700">
-            Shipping timelines for physical materials will be communicated during the order process. Delivery times vary based on location.
+            Shipping timelines for physical materials will be communicated during the order process. Delivery times vary based on location. Delivery will be completed within 0-7 days, unless otherwise specified.
           </p>
 
           <h2 className="text-2xl font-semibold mt-6 mb-4">3. Delays</h2>
