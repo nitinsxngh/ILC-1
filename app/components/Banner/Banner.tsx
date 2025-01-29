@@ -36,7 +36,7 @@ const Banner = () => {
                 />
                 <img
                   className="inline-block h-12 w-12 rounded-full ring-2 ring-white"
-                  src="/assets/teachers/pranshi-singh.jpeg"
+                  src="/assets/teachers/suvigya.jpg"
                   alt=""
                 />
                 <img

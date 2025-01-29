@@ -75,7 +75,7 @@ const NamesList = () => {
                         <select
                             value={selectedCategory}
                             onChange={(e) => setSelectedCategory(e.target.value)}
-                            className="bg-transparent text-purple font-medium py-4 px-6 rounded focus:outline-none focus:ring-0"  // Increased padding
+                            className="bg-transparent text-purple font-medium py-2 px-4 rounded focus:outline-none focus:ring-0 rounded focus:outline-none focus:ring-0 border border-gray-400"  // Increased padding
                         >
                             <option value="Legal">Legal</option>
                             <option value="Drone">Drone</option>

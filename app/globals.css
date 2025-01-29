@@ -38,20 +38,20 @@ html:not([data-scroll="0"]) .navbar {
   /*background-image: url('/assets/banner/background.png');*/
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #141414;
+  background-color: #03073a;
   color: #a47c38;
 }
 .bg-lightpink {
-  background-color: #141414;
+  background-color: #03073a;
   color: #a47c38;
 }
 
 .bg-bgpurple {
-  background-color: #141414;
+  background-color: #03073a;
 }
 
 .bg-bgpink {
-  background-color: #010101;
+  background-color: #03073a;
   color: #a47c38;
 }
 
