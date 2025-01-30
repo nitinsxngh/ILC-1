@@ -25,7 +25,7 @@ const Banner = () => {
               Integrated Learning Circle
             </h1>
             <p className="mt-6 text-lg leading-8 text-white">
-              Transforming Learning to Build Skills, Foster Connections, and Unlock Career Opportunities.
+              Customized Learning for Your Unique Experience.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <div className="hidden sm:block -space-x-2 overflow-hidden p-4">

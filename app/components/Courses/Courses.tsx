@@ -65,6 +65,11 @@ const NamesList = () => {
             : name.category === selectedCategory
     );
 
+    // Redirect function for Explore Classes
+    const redirectToExploreClasses = () => {
+        window.location.href = 'https://explore.ilc.limited';
+    };
+
     return (
         <div>
             <div id="courses-section" className="mx-auto max-w-2xl py-16 px-4 sm:py-36 sm:px-6 lg:max-w-7xl lg:px-8">
@@ -75,7 +80,7 @@ const NamesList = () => {
                         <select
                             value={selectedCategory}
                             onChange={(e) => setSelectedCategory(e.target.value)}
-                            className="bg-transparent text-purple font-medium py-2 px-4 rounded focus:outline-none focus:ring-0 rounded focus:outline-none focus:ring-0 border border-gray-400"  // Increased padding
+                            className="bg-transparent text-purple font-medium py-2 px-4 rounded focus:outline-none focus:ring-0 rounded focus:outline-none focus:ring-0 border border-gray-400"
                         >
                             <option value="Legal">Legal</option>
                             <option value="Drone">Drone</option>
@@ -87,7 +92,11 @@ const NamesList = () => {
                         Circle
                     </h2>
 
-                    <button className="bg-transparent hover:bg-purple text-purple font-medium hover:text-white py-3 px-4 border border-purple hover:border-transparent rounded">
+                    {/* Explore Classes Button */}
+                    <button
+                        onClick={redirectToExploreClasses}
+                        className="bg-transparent hover:bg-purple text-purple font-medium hover:text-white py-3 px-4 border border-purple hover:border-transparent rounded"
+                    >
                         Explore Classes
                     </button>
                 </div>

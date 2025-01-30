@@ -38,11 +38,11 @@ html:not([data-scroll="0"]) .navbar {
   /*background-image: url('/assets/banner/background.png');*/
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #03073a;
+  background: linear-gradient(90deg, #050B55 41%, #03073A 70%);
   color: #a47c38;
 }
 .bg-lightpink {
-  background-color: #03073a;
+  background: linear-gradient(90deg, #050B55 41%, #03073A 70%);
   color: #a47c38;
 }
 

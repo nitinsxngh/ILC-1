@@ -4,8 +4,6 @@ import Link from 'next/link';
 import React from 'react';
 import Drawer from "./Drawer";
 import Drawerdata from "./Drawerdata";
-import Signdialog from "./Signdialog";
-import Registerdialog from "./Registerdialog";
 import Contactus from "./Contactus";
 
 interface NavigationItem {
@@ -31,9 +29,19 @@ function classNames(...classes: string[]) {
 const Navbar = () => {
     const [isOpen, setIsOpen] = React.useState(false);
 
+    // Redirect to the registration page
+    const redirectToRegister = () => {
+        window.location.href = 'https://explore.ilc.limited/authentication/register';
+    };
+
+    // Redirect to the login page
+    const redirectToLogin = () => {
+        window.location.href = 'https://explore.ilc.limited/authentication/login';
+    };
+
     return (
         <Disclosure as="nav" className="bg-lightpink navbar" style={{ zIndex: 9999 }}>
-            <> 
+            <>
                 <div className="mx-auto max-w-7xl px-6 lg:px-8">
                     <div className="relative flex h-20 items-center justify-between">
                         <div className="flex flex-1 items-center sm:items-stretch sm:justify-start">
@@ -77,13 +85,23 @@ const Navbar = () => {
                             </div>
                         </div>
 
-                        {/* SIGNIN DIALOG */}
+                        {/* SIGNIN BUTTON - Redirect to the login page on click */}
 
-                        <Signdialog />
+                        <button
+                            onClick={redirectToLogin}
+                            className="bg-purple hover:bg-purple hover:text-white text-white text-15px font-medium ml-8 py-4 px-5 rounded"
+                        >
+                            Sign In
+                        </button>
 
-                        {/* REGISTER DIALOG */}
+                        {/* REGISTER BUTTON - Redirect to the register page on click */}
 
-                        <Registerdialog />
+                        <button
+                            onClick={redirectToRegister}
+                            className="bg-purple hover:bg-purple hover:text-white text-white text-15px font-medium ml-8 py-4 px-5 rounded"
+                        >
+                            Register
+                        </button>
 
                         {/* DRAWER FOR MOBILE VIEW */}
 
