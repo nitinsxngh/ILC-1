@@ -25,7 +25,7 @@ const Banner = () => {
   }, [eventEndTime]);
 
   const handleApplyClick = () => {
-    router.push("https://explore.ilc.limited/"); // Redirects to upcoming events page
+    router.push("https://explore.ilc.limited/events"); // Redirects to upcoming events page
   };
 
   // Calculate days, hours, minutes, and seconds
