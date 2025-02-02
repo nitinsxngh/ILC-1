@@ -8,37 +8,85 @@ interface Name {
     imageSrc: string;
     profession: string;
     price: string;
-    category: 'Law' | 'Other' | 'Management' | 'AI' | 'Finance';
+    category: 'Law' | 'Other' | 'Management' | 'AI' | 'Finance' | 'Drone' | 'Engineering';
     subCategory?: string;
 }
 
 const names: Name[] = [
     // Law Courses
-    { course: 'Corporate Law', imageSrc: '/assets/courses/law/1.jpg', profession: 'Learn the essentials of corporate law and regulations.', price: '100', category: 'Law' },
-    { course: 'Intellectual Property Law', imageSrc: '/assets/courses/law/2.jpg', profession: 'Understand patents, trademarks, and copyrights.', price: '120', category: 'Law' },
-    { course: 'Cyber Law', imageSrc: '/assets/courses/law/3.jpg', profession: 'Study legal frameworks for cybersecurity and IT.', price: '110', category: 'Law' },
-    { course: 'Environmental Law', imageSrc: '/assets/courses/law/4.jpg', profession: 'Explore laws related to environmental protection.', price: '90', category: 'Law' },
-
+    { course: 'Practical Mastery in Constitutional Law: Bridging Theory with Legal Practice', imageSrc: '/assets/courses/law/1.jpg', profession: 'Master the essentials of constitutional law with a focus on practical applications.', price: '6000', category: 'Law' },
+    { course: 'Mastering Civil Law Practice: Comprehensive Training in Litigation, Remedies & Dispute Resolution', imageSrc: '/assets/courses/law/2.jpg', profession: 'Gain practical experience in civil law practice, including litigation and dispute resolution.', price: '6500', category: 'Law' },
+    { course: 'Practical Expertise in Criminal Law & Procedure', imageSrc: '/assets/courses/law/1.jpg', profession: 'Get hands-on training in criminal law procedures and practice.', price: '7000', category: 'Law' },
+    { course: 'Corporate & Business Law Mastery: Practical training for Legal Professionals', imageSrc: '/assets/courses/law/2.jpg', profession: 'Specialize in corporate and business law with practical legal training.', price: '7500', category: 'Law' },
+    { course: 'Navigating Digital Frontiers: Practical Training in Information Technology & Cyber Laws', imageSrc: '/assets/courses/law/1.jpg', profession: 'Master the intersection of IT and cyber law for modern legal practice.', price: '7000', category: 'Law' },
+    { course: 'Global Paralegal Excellence: Mastering International Laws & Practice', imageSrc: '/assets/courses/law/2.jpg', profession: 'Develop expertise in international law and practice as a global paralegal.', price: '8000', category: 'Law' },
+    { course: 'Comprehensive Practical Training in Commercial Law: Contracts, Property & Modern Trade Practices', imageSrc: '/assets/courses/law/1.jpg', profession: 'Master commercial law, including contracts and property law for modern trade.', price: '7500', category: 'Law' },
+    { course: 'Mastering Intellectual Property Rights: Practical Training in Law, Strategy & Enforcement', imageSrc: '/assets/courses/law/2.jpg', profession: 'Master the strategic management and enforcement of intellectual property rights.', price: '8000', category: 'Law' },
+    { course: 'Mastering Arbitration: Practical Training in Domestic, International & Cross-Border Dispute Resolution', imageSrc: '/assets/courses/law/1.jpg', profession: 'Develop practical skills in arbitration for resolving disputes at various levels.', price: '8500', category: 'Law' },
+    { course: 'Mastering Family Law: A Practical Approach to Rights, Relationships & Remedies', imageSrc: '/assets/courses/law/2.jpg', profession: 'Get practical training in family law including rights, relationships, and remedies.', price: '7000', category: 'Law' },
+    { course: 'Mastering Property Laws & RERA Laws: Practical Training for Legal and Real Estate Excellence', imageSrc: '/assets/courses/law/1.jpg', profession: 'Specialize in property and RERA laws for real estate professionals.', price: '7500', category: 'Law' },
+    { course: 'Practical Training in Municipal Law: Governance, Urban Development & Legal Frameworks', imageSrc: '/assets/courses/law/2.jpg', profession: 'Master municipal law and its applications in urban governance and development.', price: '6000', category: 'Law' },
+    { course: 'Practical training in Education Law: Rights, Policies & Legal Frameworks', imageSrc: '/assets/courses/law/1.jpg', profession: 'Gain practical training in education law, focusing on policies and legal frameworks.', price: '6500', category: 'Law' },
+    { course: 'Practical Training in Environmental & Natural Resources Law: Legal Frameworks', imageSrc: '/assets/courses/law/2.jpg', profession: 'Master legal frameworks for environmental protection and natural resource management.', price: '7000', category: 'Law' },
+    { course: 'Championing Animal Rights: Practical Training in Indian Animal Laws & Welfare', imageSrc: '/assets/courses/law/1.jpg', profession: 'Specialize in Indian animal laws and welfare, with a focus on practical applications.', price: '6000', category: 'Law' },
+    { course: 'Mastering Alternate Dispute Resolution: Practical Skills & Legal Frameworks for Effective Dispute Settlement', imageSrc: '/assets/courses/law/2.jpg', profession: 'Gain practical skills in alternative dispute resolution methods and legal frameworks.', price: '7500', category: 'Law' },
+    { course: 'Mastering Governance: Practical training in Administrative Law', imageSrc: '/assets/courses/law/1.jpg', profession: 'Master the legal principles of governance and administrative law.', price: '7000', category: 'Law' },
+    { course: 'Wildlife Law & Conservation: Legal Frameworks, Enforcement & Advocacy in India', imageSrc: '/assets/courses/law/2.jpg', profession: 'Gain expertise in wildlife law and conservation with a focus on India.', price: '8000', category: 'Law' },
+    
     // Drone Courses
-    { course: 'Kisan Drone Operator', imageSrc: '/assets/courses/drone/1.jpg', profession: 'Operate drones for agricultural monitoring, spraying, and data collection.', price: '50', category: 'Other', subCategory: 'Drone' },
-    { course: 'Drone Technology', imageSrc: '/assets/courses/drone/2.jpg', profession: 'Learn the basics of drone technology and flight operations.', price: '75', category: 'Other', subCategory: 'Drone' },
+    { course: 'Drone Service Technician', imageSrc: '/assets/courses/drone/1.jpg', profession: 'Learn the skills to maintain and repair drones.', price: '5500', category: 'Drone', subCategory: 'Drone' },
+    { course: 'Drone Manufacturing & Assembly Technician', imageSrc: '/assets/courses/drone/2.jpg', profession: 'Master drone assembly and manufacturing processes.', price: '6000', category: 'Drone', subCategory: 'Drone' },
+    { course: 'Drone Developer (Software)', imageSrc: '/assets/courses/drone/1.jpg', profession: 'Develop software solutions for drones.', price: '6500', category: 'Drone', subCategory: 'Drone' },
+    { course: 'Drone Operator over Dimensional Cargo', imageSrc: '/assets/courses/drone/2.jpg', profession: 'Operate drones for transporting oversized cargo.', price: '7000', category: 'Drone', subCategory: 'Drone' },
+    { course: 'Drone Operator - Warehouse', imageSrc: '/assets/courses/drone/1.jpg', profession: 'Use drones to manage warehouse logistics and inventory.', price: '5500', category: 'Drone', subCategory: 'Drone' },
+    { course: 'Drone Monitoring and Maintenance Associate', imageSrc: '/assets/courses/drone/2.jpg', profession: 'Monitor and maintain drones in the field.', price: '6000', category: 'Drone', subCategory: 'Drone' },
+    { course: 'Dronographer', imageSrc: '/assets/courses/drone/1.jpg', profession: 'Capture stunning aerial photography and videography with drones.', price: '5000', category: 'Drone', subCategory: 'Drone' },
+    { course: 'Drone Operator- Multi Rotor', imageSrc: '/assets/courses/drone/2.jpg', profession: 'Operate multi-rotor drones for various commercial applications.', price: '5500', category: 'Drone', subCategory: 'Drone' },
 
     // Engineering Courses
-    { course: 'Mechanical Engineering Basics', imageSrc: '/assets/courses/engineer/1.jpg', profession: 'Learn the fundamentals of mechanical engineering.', price: '60', category: 'Other', subCategory: 'Engineering' },
-    { course: 'Electrical Engineering Concepts', imageSrc: '/assets/courses/engineer/2.jpg', profession: 'Understand electrical systems and circuits.', price: '80', category: 'Other', subCategory: 'Engineering' },
+    { course: 'Mechanical Engineering Basics', imageSrc: '/assets/courses/engineer/1.jpg', profession: 'Learn the fundamentals of mechanical engineering.', price: '5000', category: 'Engineering', subCategory: 'Engineering' },
+    { course: 'Electrical Engineering Concepts', imageSrc: '/assets/courses/engineer/2.jpg', profession: 'Understand electrical systems and circuits.', price: '5000', category: 'Engineering', subCategory: 'Engineering' },
+    { course: 'Mechanical Engineering and Plumbing General Manager', imageSrc: '/assets/courses/engineer/1.jpg', profession: 'Manage mechanical engineering and plumbing operations.', price: '7000', category: 'Engineering', subCategory: 'Engineering' },
+    { course: 'Search Engine Optimization Executive', imageSrc: '/assets/courses/engineer/2.jpg', profession: 'Optimize websites for search engines to increase visibility and traffic.', price: '6000', category: 'Engineering', subCategory: 'Engineering' },
+    { course: 'Application Developer - Web & Mobile', imageSrc: '/assets/courses/engineer/1.jpg', profession: 'Develop web and mobile applications using the latest technologies.', price: '7500', category: 'Engineering', subCategory: 'Engineering' },
+    { course: 'Database Administrator', imageSrc: '/assets/courses/engineer/2.jpg', profession: 'Manage and maintain databases to ensure security and availability.', price: '8000', category: 'Engineering', subCategory: 'Engineering' },
+    { course: 'Junior Software Development Course', imageSrc: '/assets/courses/engineer/1.jpg', profession: 'Get hands-on experience in software development for beginners.', price: '4500', category: 'Engineering', subCategory: 'Engineering' },
 
     // Management Courses
-    { course: 'Project Management Essentials', imageSrc: '/assets/courses/management/1.png', profession: 'Master the fundamentals of project management.', price: '150', category: 'Management' },
-    { course: 'Business Strategy', imageSrc: '/assets/courses/management/2.png', profession: 'Learn strategic thinking for business success.', price: '140', category: 'Management' },
+    { course: 'Secretary', imageSrc: '/assets/courses/management/1.png', profession: 'Master the essential skills of office management and administration.', price: '5000', category: 'Management' },
+    { course: 'Multifunctional Office Executive', imageSrc: '/assets/courses/management/2.png', profession: 'Learn to manage multiple office functions and lead administrative teams.', price: '5000', category: 'Management' },
+    { course: 'Public Accountant', imageSrc: '/assets/courses/management/1.png', profession: 'Gain expertise in accounting, tax, and financial reporting.', price: '5500', category: 'Management' },
 
     // AI Courses
-    { course: 'Artificial Intelligence for Beginners', imageSrc: '/assets/courses/ai/1.png', profession: 'Learn the basics of AI and machine learning.', price: '200', category: 'AI' },
-    { course: 'Deep Learning', imageSrc: '/assets/courses/ai/2.png', profession: 'Advanced deep learning techniques for AI experts.', price: '250', category: 'AI' },
+    { course: 'Data Quality Analyst', imageSrc: '/assets/courses/ai/1.png', profession: 'Ensure data accuracy, consistency, and quality within an organization.', price: '6500', category: 'AI' },
+    { course: 'Business Intelligence Analyst', imageSrc: '/assets/courses/ai/2.png', profession: 'Analyze business data to help organizations make strategic decisions.', price: '7000', category: 'AI' },
+    { course: 'Data Engineer', imageSrc: '/assets/courses/ai/1.png', profession: 'Design, develop, and manage systems that collect and process data.', price: '7500', category: 'AI' },
+    { course: 'Data Architect', imageSrc: '/assets/courses/ai/2.png', profession: 'Design the structure of data systems and ensure efficient data storage.', price: '8000', category: 'AI' },
+    { course: 'Solution Architect', imageSrc: '/assets/courses/ai/1.png', profession: 'Design and implement technical solutions that meet business needs.', price: '8500', category: 'AI' },
+    { course: 'Database Administration', imageSrc: '/assets/courses/ai/2.png', profession: 'Oversee and manage databases to ensure secure and efficient data storage.', price: '9000', category: 'AI' },
+    { course: 'Machine Learning Engineer', imageSrc: '/assets/courses/ai/1.png', profession: 'Develop machine learning models and algorithms for data analysis.', price: '9500', category: 'AI' },
+    { course: 'DevOps Engineer', imageSrc: '/assets/courses/ai/2.png', profession: 'Work on automating and improving the development and deployment processes.', price: '10000', category: 'AI' },
 
     // Finance Courses
-    { course: 'Financial Management Basics', imageSrc: '/assets/courses/finance/1.png', profession: 'Understand financial systems and business operations.', price: '120', category: 'Finance' },
-    { course: 'Investment Strategies', imageSrc: '/assets/courses/finance/2.png', profession: 'Learn the art of managing investments effectively.', price: '180', category: 'Finance' },
+    { course: 'Financial Management Basics', imageSrc: '/assets/courses/finance/1.png', profession: 'Understand financial systems and business operations.', price: '5000', category: 'Finance' },
+    { course: 'Investment Strategies', imageSrc: '/assets/courses/finance/2.png', profession: 'Learn the art of managing investments effectively.', price: '5000', category: 'Finance' },
+    { course: 'Key Accounts Sales Manager', imageSrc: '/assets/courses/finance/1.png', profession: 'Manage and nurture relationships with key accounts in finance.', price: '5500', category: 'Finance' },
+    { course: 'Key Accounts Service Manager', imageSrc: '/assets/courses/finance/2.png', profession: 'Provide service and support to key finance accounts.', price: '5500', category: 'Finance' },
+    { course: 'Accounts Executive', imageSrc: '/assets/courses/finance/1.png', profession: 'Manage day-to-day financial operations and bookkeeping.', price: '4500', category: 'Finance' },
+    { course: 'Goods and Service Tax (GST) Accounts Assistant', imageSrc: '/assets/courses/finance/2.png', profession: 'Assist with GST-related financial transactions and compliance.', price: '4000', category: 'Finance' },
+    { course: 'Regional Retail Finance & Service Manager', imageSrc: '/assets/courses/finance/1.png', profession: 'Manage finance and services in regional retail operations.', price: '6000', category: 'Finance' },
+    { course: 'Finance, Insurance and Registration Coordinator', imageSrc: '/assets/courses/finance/2.png', profession: 'Coordinate finance, insurance, and registration processes.', price: '5800', category: 'Finance' },
+    { course: 'Associate Finance and Accounting', imageSrc: '/assets/courses/finance/1.png', profession: 'Assist in accounting and financial management tasks.', price: '4500', category: 'Finance' },
+    { course: 'Sales Consultant (Automotive Finance)', imageSrc: '/assets/courses/finance/2.png', profession: 'Consult in automotive finance solutions and sales.', price: '5000', category: 'Finance' },
+    { course: 'Account Executive (Advertising Agency)', imageSrc: '/assets/courses/finance/1.png', profession: 'Manage client accounts and financials in advertising agencies.', price: '5200', category: 'Finance' },
+    { course: 'Microfinance Executive', imageSrc: '/assets/courses/finance/2.png', profession: 'Assist with the management of microfinance services.', price: '4700', category: 'Finance' },
+    { course: 'Basics of Accounts and Finance', imageSrc: '/assets/courses/finance/1.png', profession: 'Learn foundational accounting and finance principles.', price: '3000', category: 'Finance' },
+    { course: 'Financial Modeling', imageSrc: '/assets/courses/finance/2.png', profession: 'Learn to create financial models for business analysis.', price: '6500', category: 'Finance' },
+    { course: 'Banking Financial Services and Insurance Sector', imageSrc: '/assets/courses/finance/1.png', profession: 'Explore financial services within banking and insurance sectors.', price: '7000', category: 'Finance' },
+    { course: 'Fintech Innovations: From Blockchain to AI', imageSrc: '/assets/courses/finance/2.png', profession: 'Understand the role of fintech in modern finance, from blockchain to AI.', price: '7500', category: 'Finance' },
 ];
+
+
 
 const categoryIcons = {
     Law: GlobeAltIcon,
@@ -52,16 +100,15 @@ const categories = ['Legal', 'Drone', 'Engineering', 'Management', 'AI', 'Financ
 
 const NamesList = () => {
     const [selectedCategory, setSelectedCategory] = useState<string>('Legal');
-    const [selectedSubCategory, setSelectedSubCategory] = useState<string | null>(null);
 
-    // Filter courses based on category selection
+    // Filter courses based on category selection (without considering subcategory anymore)
     const filteredNames = names.filter((name) =>
         selectedCategory === 'Legal'
             ? name.category === 'Law'
             : selectedCategory === 'Drone'
-            ? name.subCategory === 'Drone'
+            ? name.category === 'Drone'
             : selectedCategory === 'Engineering'
-            ? name.subCategory === 'Engineering'
+            ? name.category === 'Engineering'
             : name.category === selectedCategory
     );
 
@@ -76,11 +123,11 @@ const NamesList = () => {
                 <div className="sm:flex justify-between items-center pb-12">
                     <h2 className="text-3xl sm:text-5xl font-bold tracking-tight text-gray-900 my-4">
                         Integrated{' '}
-                        {/* Dropdown for selecting category in place of "Learning" */}
+                        {/* Dropdown for selecting category */}
                         <select
                             value={selectedCategory}
                             onChange={(e) => setSelectedCategory(e.target.value)}
-                            className="bg-transparent text-purple font-medium py-2 px-4 rounded focus:outline-none focus:ring-0 rounded focus:outline-none focus:ring-0 border border-gray-400"
+                            className="bg-transparent text-purple font-medium py-2 px-4 rounded focus:outline-none focus:ring-0 border border-gray-400 min-w-[150px] max-h-[200px] overflow-y-auto"
                         >
                             <option value="Legal">Legal</option>
                             <option value="Drone">Drone</option>
@@ -101,30 +148,6 @@ const NamesList = () => {
                     </button>
                 </div>
 
-                {/* Subcategory dropdown for "Other" category */}
-                {selectedCategory === 'Drone' || selectedCategory === 'Engineering' ? (
-                    <div className="flex mt-4 space-x-4">
-                        <button
-                            onClick={() => setSelectedSubCategory(null)}
-                            className={`${selectedSubCategory === null ? 'font-bold underline' : ''}`}
-                        >
-                            All
-                        </button>
-                        <button
-                            onClick={() => setSelectedSubCategory('Drone')}
-                            className={`${selectedSubCategory === 'Drone' ? 'font-bold underline' : ''}`}
-                        >
-                            Drone
-                        </button>
-                        <button
-                            onClick={() => setSelectedSubCategory('Engineering')}
-                            className={`${selectedSubCategory === 'Engineering' ? 'font-bold underline' : ''}`}
-                        >
-                            Engineering
-                        </button>
-                    </div>
-                ) : null}
-
                 <div>
                     <div className="mx-auto max-w-7xl">
                         <div className="grid grid-cols-1 gap-y-10 gap-x-8 py-12">
@@ -132,7 +155,7 @@ const NamesList = () => {
                                 {filteredNames.length > 0 ? (
                                     filteredNames.map((name, index) => (
                                         <div key={index}>
-                                            <div className="text-lg sm:text-sm py-5 lg:py-0">
+                                            <div className="text-lg sm:text-sm py-5 lg:py-4">
                                                 <div className="aspect-w-1 aspect-h-1 overflow-hidden rounded-lg bg-gray-100 group-hover:opacity-75">
                                                     <img
                                                         src={name.imageSrc}
@@ -141,24 +164,28 @@ const NamesList = () => {
                                                     />
                                                 </div>
                                                 <div className="flex justify-between">
-                                                    <div className="mt-6 block font-normal text-gray-900">{name.course}</div>
+                                                    <div className="mt-6 block font-normal text-gray-900">{name.category}</div>
                                                 </div>
                                                 <p aria-hidden="true" className="mt-2 mb-5 text-2xl font-semibold">
-                                                    {name.profession}
+                                                    {name.course}
                                                 </p>
                                                 <div className="flex justify-between border-solid border-2 border-grey500 rounded-md p-2">
-                                                    <p>12 Classes</p>
                                                     <div className="flex flex-row space-x-4">
-                                                        <div className="flex">
-                                                            <img src={'/assets/courses/account.svg'} alt="circle" />
-                                                            <p className="text-lightgrey ml-1">120</p>
-                                                        </div>
-                                                        <div className="flex">
-                                                            <img src={'/assets/courses/Star.svg'} alt="star" />
-                                                            <p className="ml-1">4.5</p>
-                                                        </div>
+                                                        {/* Syllabus link on the left */}
+                                                        <a
+                                                            href="#"
+                                                            className="text-purple-600 hover:underline font-medium"
+                                                            onClick={() => alert('Redirecting to Syllabus Details')}
+                                                        >
+                                                            Syllabus
+                                                        </a>
+                                                    </div>
+                                                    <div className="flex flex-row space-x-4">
+                                                        {/* Price on the right */}
+                                                        <p className="text-purple-600 font-semibold">₹{name.price}</p>
                                                     </div>
                                                 </div>
+
                                             </div>
                                         </div>
                                     ))

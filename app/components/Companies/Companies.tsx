@@ -18,13 +18,13 @@ const data: Data[] = [
         imgSrc: "/assets/slickCompany/3.svg"
     },
     {
-        imgSrc: "/assets/slickCompany/1.svg"
+        imgSrc: "/assets/slickCompany/4.svg"
     },
     {
-        imgSrc: "/assets/slickCompany/2.svg"
+        imgSrc: "/assets/slickCompany/5.svg"
     },
     {
-        imgSrc: "/assets/slickCompany/3.svg"
+        imgSrc: "/assets/slickCompany/6.svg"
     },
 ]
 
